@@ -7,12 +7,12 @@ int main() {
     scanf("%d", &num);
 
     while (num != 0) {
-        remainder = num % 10;        // Get last digit
-        reverse = reverse * 10 + remainder; // Add digit to reversed number
-        num = num / 10;              // Remove last digit
+        remainder = num % 10;        
+        reverse = reverse * 10 + remainder; 
+        num = num / 10;             
     }
 
-    printf("Reversed number: %d\n", reverse);
+    printf("Reversed number: %d", reverse);
 
     return 0;
 }
